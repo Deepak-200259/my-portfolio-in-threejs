@@ -1,8 +1,4 @@
-# React + Vite
+# My Portfolio in React and Three.JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm a Beginner Software Developer with hand's on Experience in TypeScript, JavaScript, and expertise in frameworks like React, Three.js and React Three Fiber. Along with that I have worked as Cocos Game Developer and has hands on Experience on Cocos2d Gaming Engine and Tiled Software. I'm a quick learner and collaborate efficienty with team members possessing leadership skills. Let's Work together to bring new ideas to life.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

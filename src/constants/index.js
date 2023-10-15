@@ -8,17 +8,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  cocos2d,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
   chicmic,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -81,10 +75,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -93,24 +83,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Cocos",
+    icon: cocos2d,
   },
 ];
 
