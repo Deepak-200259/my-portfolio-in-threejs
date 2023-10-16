@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import cocos from "./cocos.png";
 import web from "./web.png";
 import github from "./github.png";
+import demo from "./demo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,31 +21,32 @@ import threejs from "./tech/threejs.svg";
 
 import chicmic from "./company/chicmic.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import burgerRush from "./burgerRush.jpg";
+import interactiveMap from "./interactiveMap.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  cocos,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  git,
-  html,
-  javascript,
-  nodejs,
-  reactjs,
-  cocos2d,
-  tailwind,
-  typescript,
-  threejs,
-  chicmic,
-  carrent,
-  jobit,
-  tripguide,
+	logo,
+	backend,
+	creator,
+	cocos,
+	web,
+	github,
+	demo,
+	menu,
+	close,
+	css,
+	git,
+	html,
+	javascript,
+	nodejs,
+	reactjs,
+	cocos2d,
+	tailwind,
+	typescript,
+	threejs,
+	chicmic,
+	burgerRush,
+	interactiveMap,
+	tripguide,
 };

@@ -5,12 +5,13 @@ import { styles } from '../style'
 const Tech = () => {
   return (
     <div>
+      <p className={styles.sectionSubText}>Learnings</p>
       <h2 className={styles.sectionHeadText}>Technologies</h2>
       <br />
       <div className='flex flex-row flex-wrap justify-center gap-10'>
         {technologies.map((technology) => (
           <div
-            className='w-28 h-28'
+            className='w-40 h-40'
             key={technology.name}>
             <BallCanvas icon={technology.icon} />
           </div>))}
