@@ -1,6 +1,4 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
 import cocos from "./cocos.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -27,8 +25,6 @@ import tripguide from "./tripguide.png";
 
 export {
 	logo,
-	backend,
-	creator,
 	cocos,
 	web,
 	github,

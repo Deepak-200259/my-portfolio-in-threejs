@@ -1,7 +1,5 @@
 import {
 	cocos,
-	backend,
-	creator,
 	web,
 	javascript,
 	typescript,
@@ -17,7 +15,6 @@ import {
 	interactiveMap,
 	tripguide,
 	threejs,
-	demo,
 } from "../assets";
 
 export const navLinks = [
