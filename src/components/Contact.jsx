@@ -39,20 +39,46 @@ const Contact = () => {
 			alert("Oops! Something went Wrong");
 		};
 
-		emailjs
-			.send(
-				details.serviceID,
-				details.templateID,
-				{
-					from_name: form.name,
-					to_name: details.to_name,
-					from_email: form.email,
-					to_email: details.to_email,
-					message: form.message,
-				},
-				details.key,
-			)
-			.then(emailSent, errorOccured);
+		const validateCredentials = () => {
+			if (form.name == /^[a-zA-Z ]+$/) {
+				console.log(form.name);
+				console.log(/^[a-zA-Z ]+$/.test("Deepak Saini"));
+				setLoading(false);
+				alert(
+					"Please enter valid Name. Name should only Contain Alphabets and Spaces.",
+				);
+				return false;
+			} else if (
+				form.email ==
+				/^([A-Za-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/
+			) {
+				setLoading(false);
+				alert("Please enter valid Email Address");
+				return false;
+			} else if (form.message == /^[a-zA-Z0-9!@#$%^&*()_'. ]*$/) {
+				setLoading(false);
+				alert("Please enter Valid Message");
+				return false;
+			}
+			return true;
+		};
+
+		validateCredentials()
+			? emailjs
+					.send(
+						details.serviceID,
+						details.templateID,
+						{
+							from_name: form.name,
+							to_name: details.to_name,
+							from_email: form.email,
+							to_email: details.to_email,
+							message: form.message,
+						},
+						details.key,
+					)
+					.then(emailSent, errorOccured)
+			: null;
 	};
 	return (
 		<div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
